@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CipherX — Ali | Yazılım Öğrencisi &amp; Geliştirici</title>
+  <meta name="description" content="Ali, namı değer CipherX. Yazılım öğrencisi, geliştirici adayı ve insanlara destek olmayı seven biri. Programlar, uygulamalar ve projeler." />
+  <meta property="og:title" content="CipherX — Selamlar, ben Ali" />
+  <meta property="og:description" content="Yazılım öğrencisiyim. Programlar ve uygulamalar geliştirir, insanlara destek olmaya çalışırım. Kendimce büyük ama aslında küçük bir insanım." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0e14'/%3E%3Ctext x='50' y='70' font-size='52' font-family='monospace' font-weight='bold' fill='%2339ffa0' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <nav class="nav">
+    <a href="#top" class="logo"><span class="bracket">[</span> cipherx404<span class="accent">@exe</span> <span class="bracket">]</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç/kapat"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hakkimda">.hakkimda()</a></li>
+      <li><a href="#projeler">.projeler()</a></li>
+      <li><a href="#kanal">.kanal()</a></li>
+      <li><a href="#iletisim">.iletisim()</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <div class="terminal reveal">
+        <div class="term-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="term-title">ali@cipherx: ~/hayat</span>
+        </div>
+        <div class="term-body">
+          <p><span class="prompt">ali@cipherx:~$</span> whoami</p>
+          <p class="out">→ Ali. Namı değer <b>CipherX</b>. Yazılım öğrencisi.</p>
+          <p><span class="prompt">ali@cipherx:~$</span> cat gorevler.txt</p>
+          <p class="out">→ kod yaz | öğren | destek ol</p>
+          <p><span class="prompt">ali@cipherx:~$</span> <span id="typing"></span><span class="cursor" aria-hidden="true">▊</span></p>
+        </div>
+      </div>
+
+      <h1 class="reveal">Selamlar, ben <span class="accent">Ali</span>.<br />Namı değer <span class="glitch" data-text="CipherX">CipherX</span>.</h1>
+      <p class="hero-sub reveal">Yazılım öğrencisiyim. Programlar ve uygulamalar geliştirir, öğrendikçe büyür, bildikçe paylaşırım. Kendimce büyük, gerçekte küçük ama potansiyeli devasa bir insanım.</p>
+
+      <div class="hero-cta reveal">
+        <a class="btn btn-primary" href="https://www.youtube.com/@cipherx404-exe" target="_blank" rel="noopener">▶ Kanala Git</a>
+        <a class="btn" href="https://github.com/CipherX404/" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://discord.gg/swuqQd3gY8" target="_blank" rel="noopener">Discord</a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="num">6+</span><span class="lbl">public repo</span></div>
+        <div class="stat"><span class="num">∞</span><span class="lbl">kahve</span></div>
+        <div class="stat"><span class="num">1</span><span class="lbl">hedef</span></div>
+        <div class="stat"><span class="num">404</span><span class="lbl">ego bulunamadı</span></div>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#hakkimda" aria-label="Aşağı kaydır">▾</a>
+  </header>
+  <!-- ========== HAKKIMDA ========== -->
+  <main>
+    <section id="hakkimda" class="section">
+      <h2 class="section-title reveal"><span class="comment">//</span> hakkimda</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Merhaba! Ben <b>Ali</b> — internette gezerken <b>CipherX</b> adını taşıyorum. Bir <b>yazılım öğrencisiyim</b>.</p>
+          <p>Kendimi geliştirmek adına <b>programlar ve uygulamalar geliştiriyorum</b>. Bazıları ilk denemede çalışıyor, bazıları "çalışıyor gibime benziyor" — ama hepsinden bir şeyler öğreniyorum ve bu benim için asıl kazanım.</p>
+          <p>Bir yandan da <b>insanlara destek olmaya</b> çalışıyorum. Sorusu olana, takılanla, "ya bunu nasıl yapacağım?" diyenle elimden geldiğince ilgilenirim. Çünkü takıldığın yerde "gel bakalım, beraber bakalım" diyen birine herkesin ihtiyacı olur — o kişi de bazen ben olmak istiyorum.</p>
+          <p>Özetle: <em>ben kendimce büyük ama aslında küçük bir insanım.</em> Ama küçük insanlar küçük adımlarla büyük yollara çıkar. Ben de tam o yolda yürüyorum, adım adım.</p>
+          <div class="tags">
+            <span class="tag">#yazılım-öğrencisi</span>
+            <span class="tag">#öğrenmeye-açık</span>
+            <span class="tag">#destek-sever</span>
+            <span class="tag">#kod-yazan</span>
+            <span class="tag">#kahve-bağımlısı</span>
+          </div>
+        </div>
+        <aside class="profile-card reveal">
+          <div class="pfp-wrap">
+            <img src="profil.png" alt="CipherX profil fotoğrafı" onerror="this.onerror=null;this.src='https://avatars.githubusercontent.com/u/196229678?v=4';" />
+          </div>
+          <h3>CipherX <span class="handle">@cipherx404-exe</span></h3>
+          <p class="role">Yazılım Öğrencisi / Geliştirici</p>
+          <div class="pfp-links">
+            <a href="https://github.com/CipherX404/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.youtube.com/@cipherx404-exe" target="_blank" rel="noopener">YouTube</a>
+            <a href="https://discord.gg/swuqQd3gY8" target="_blank" rel="noopener">Discord</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- ========== PROJELER ========== -->
+    <section id="projeler" class="section">
+      <h2 class="section-title reveal"><span class="comment">//</span> projeler</h2>
+      <p class="section-sub reveal">GitHub'da duran, bir kısmı çalışan bir kısmı da "yakında çalışacak" işler.</p>
+      <div class="grid">
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>BlockLegends</h3>
+            <span class="lang lang-gd">GDScript</span>
+          </div>
+          <p>Godot motoruyla geliştirdiğim oyun projesi. Blokların efsanesi tam olarak burada yazılıyor.</p>
+          <a class="card-link" href="https://github.com/CipherX404/BlockLegends" target="_blank" rel="noopener">GitHub'da gör →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>NeBakiyon</h3>
+            <span class="lang lang-q">???</span>
+          </div>
+          <p>İsim tek başına her şeyi anlatıyor. Deneme-yanılma alanım; buradaki her şey bir gün işe yarayacak. Belki de.</p>
+          <a class="card-link" href="https://github.com/CipherX404/NeBakiyon" target="_blank" rel="noopener">GitHub'da gör →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>cipherx404.github.io</h3>
+            <span class="lang lang-html">HTML</span>
+          </div>
+          <p>Şu an okuduğun sitenin kendisi. Evet, ev yapımı. Evet, sihir yok.</p>
+          <a class="card-link" href="https://github.com/CipherX404/cipherx404.github.io" target="_blank" rel="noopener">GitHub'da gör →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>FileCentipede <span class="badge">fork</span></h3>
+            <span class="lang lang-cpp">C++</span>
+          </div>
+          <p>Kırkayak gibi her şeyi indiren, cross-platform bir indirme yöneticisi. Çatalladım, inceleyip öğreniyorum.</p>
+          <a class="card-link" href="https://github.com/CipherX404/FileCentipede" target="_blank" rel="noopener">GitHub'da gör →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>fluexcode.github.io <span class="badge">fork</span></h3>
+            <span class="lang lang-js">JavaScript</span>
+          </div>
+          <p>Bir ekip sitesi çatalı. Fork'lamak da bir öğrenme biçimidir — kod okumak bazen yazmaktan daha öğretici.</p>
+          <a class="card-link" href="https://github.com/CipherX404/fluexcode.github.io" target="_blank" rel="noopener">GitHub'da gör →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card-top">
+            <h3>action-connect-ovpn <span class="badge">fork</span></h3>
+            <span class="lang lang-q">DevOps</span>
+          </div>
+          <p>GitHub Actions ile VPN bağlama aksiyonu. Altyapı işlerine de bulaşıyorum yani.</p>
+          <a class="card-link" href="https://github.com/CipherX404/action-connect-ovpn" target="_blank" rel="noopener">GitHub'da gör →</a>
+        </article>
+      </div>
+      <div class="center reveal">
+        <a class="btn" href="https://github.com/CipherX404?tab=repositories" target="_blank" rel="noopener">Tüm repolar →</a>
+      </div>
+    </section>
+    <!-- ========== KANAL & TOPLULUK ========== -->
+    <section id="kanal" class="section">
+      <h2 class="section-title reveal"><span class="comment">//</span> kanal &amp; topluluk</h2>
+      <p class="section-sub reveal">Beni takip et, kodlarımı incele, topluluğa katıl. Üçü de bedava.</p>
+      <div class="channels">
+        <a class="channel reveal" href="https://www.youtube.com/@cipherx404-exe" target="_blank" rel="noopener">
+          <span class="ch-icon yt">▶</span>
+          <h3>YouTube <span class="handle">@cipherx404-exe</span></h3>
+          <p>Videolar, projeler, çöktüğümüz ve toparladığımız anlar. Gel, beraber izleyelim.</p>
+          <span class="go">Kanala git →</span>
+        </a>
+        <a class="channel reveal" href="https://github.com/CipherX404/" target="_blank" rel="noopener">
+          <span class="ch-icon gh">&lt;/&gt;</span>
+          <h3>GitHub <span class="handle">CipherX404</span></h3>
+          <p>Kodlar burada yatıyor. Hatalar da. Star at, PR aç, beraber büyüyelim.</p>
+          <span class="go">Repoya git →</span>
+        </a>
+        <a class="channel reveal" href="https://discord.gg/swuqQd3gY8" target="_blank" rel="noopener">
+          <span class="ch-icon dc">◆</span>
+          <h3>Discord <span class="handle">destek sunucusu</span></h3>
+          <p>Soru sor, sohbet et, takıl. Kapı herkese açık, çay benden.</p>
+          <span class="go">Sunucuya katıl →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== İLETİŞİM ========== -->
+    <section id="iletisim" class="section">
+      <h2 class="section-title reveal"><span class="comment">//</span> iletisim</h2>
+      <p class="section-sub reveal">Bana ulaşmak istersen en hızlı yollar bunlar:</p>
+      <div class="contact-row reveal">
+        <a class="btn btn-primary" href="https://discord.gg/swuqQd3gY8" target="_blank" rel="noopener">◆ Discord'a Katıl</a>
+        <a class="btn" href="https://www.youtube.com/@cipherx404-exe" target="_blank" rel="noopener">▶ YouTube</a>
+        <a class="btn" href="https://github.com/CipherX404/" target="_blank" rel="noopener">GitHub Issues</a>
+      </div>
+      <p class="contact-note reveal"><span class="comment">// e-posta ve diğer kanallar eklenecek — takipte kal.</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> CipherX (Ali) — el yapımı site, bol kahve ve biraz CSS ile.</p>
+    <p class="foot-comment">[404: ego bulunamadı] · <span id="clock"></span></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
